@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movies List</title>
+</head>
+<body bgcolor="#e9967a">
+<h1>Movies:</h1>
+<% moviesList.forEach((m) => { %>
+    <li> <%= m.title %>
+        <ul>Genre: <%= m.genre %> </ul>
+        <ul>Year: <%= m.year %> </ul>
+    </li>
+<% }); %>
+</body>
+</html>
+
+
